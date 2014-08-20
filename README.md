@@ -6,9 +6,13 @@ The unofficial GroupMe API for Java
 Example usage:
 --
 ```java
+//create your bot with the ID assigned to you (GroupMe bot creation link below)
 Bot bot = new Bot("your bot id here");
+//send a simple text only message
 bot.sendTextMessage("Test message");
+//send an image with text along with it
 bot.sendImage("Check out this image", "http://www.wtt.com/Pictures/WTT_logo_color_Jan2010.gif");
+//send a location to the chat
 bot.sendLocation("Home", 38.8977, -77.0366, "The White House");
 ```
 In order to add the projects code to your project download the most recent version from [here](https://github.com/wreed12345/GroupMe-Java-API/tree/master/builds) and add the jar as a library in your java build path. To obtain a bot with an ID use [this form](https://dev.groupme.com/bots/new). After creation use the bot id as a parameter when you create your bot object.
