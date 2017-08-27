@@ -1,6 +1,6 @@
-GroupMe Java API
+GroupMe Java Wrapper
 ==
-The unofficial GroupMe API for Java
+A Java wrapper for the GroupMe bots api
 
 
 Example usage:
